@@ -1,0 +1,1 @@
+# rails_omniauth_github_sample
