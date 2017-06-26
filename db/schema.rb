@@ -17,7 +17,7 @@ ActiveRecord::Schema.define(version: 20170621142122) do
     t.datetime "updated_at", null: false
     t.string "name"
     t.string "provider"
-    t.string "oauth_token"
+    t.string "auth_token"
     t.text "uid"
     t.string "address"
   end
