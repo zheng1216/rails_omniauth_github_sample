@@ -1,0 +1,7 @@
+<h3>Welcome</h3>
+<% if current_user %>
+    <p><%= link_to 'ログアウト', signout_path %></p>
+<% else %>
+    <p><%= link_to 'githubでログイン', signin_path %></p>
+<% end %>
+
